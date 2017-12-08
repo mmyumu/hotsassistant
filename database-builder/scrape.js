@@ -64,11 +64,11 @@ function getHero(heroName) {
 	console.log('Retrieving hero ' + heroName + '...');
 	
 	var hero = {
-		name : heroName,
+		name : heroName.toLowerCase(),
 		data: {counters : []},
 	}
 	
-	var heroUrl = heroName.replace(/'/g, '').replace(/ /g, '-').replace(/\./g, '').toLowerCase();
+	var heroUrl = heroName.replace(/'/g, '').replace(/\. /g, '-').replace(/ /g, '-').replace(/\.$/g, '').replace(/\./g, '-').toLowerCase();
 	console.log('heroUrl=' + heroUrl);
 	var requestUrl = 'https://www.icy-veins.com/heroes/' + heroUrl + '-build-guide';
 	request(requestUrl, function (error, response, html) {
