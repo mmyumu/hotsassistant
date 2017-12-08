@@ -37,7 +37,7 @@ fs.writeFileSync(DB_PATH, JSON.stringify({heroes: {}}, null, 2), 'utf8', functio
 		return console.log('error writing file='+err);
 	}
 });
-/*
+
 request('https://www.icy-veins.com/heroes/', function(error, response, html) {
 	if (!error && response.statusCode == 200) {
 		var loadedHTML = cheerio.load(html);
@@ -50,10 +50,6 @@ request('https://www.icy-veins.com/heroes/', function(error, response, html) {
 		console.log('error requesting heroes = ' + error);
 	}
 });
-*/
-getHero('Chromie')
-getHero('Genji')
-getHero('Alarak')
 
 function getHeroCategory(loadedHTML, heroCategory) {
 	console.log('Retrieving category ' + heroCategory + '...');
