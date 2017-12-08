@@ -1,0 +1,38 @@
+{
+  "id": "4153e8f4-bc43-48bd-b7d4-00e547039da2",
+  "timestamp": "2017-12-08T15:19:13.85Z",
+  "lang": "fr",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "counter alarak",
+    "action": "hotsassistant.counter",
+    "actionIncomplete": false,
+    "parameters": {
+      "hero": "Alarak"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "6f4529f9-f70f-4542-8150-22c0054b417a",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Counter"
+    },
+    "fulfillment": {
+      "speech": "Tu peux contrer Alarak avec toto, tutu et tata",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tu peux contrer Alarak avec toto, tutu et tata"
+        }
+      ]
+    },
+    "score": 0.9599999785423279
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: 400 Bad Request",
+    "webhookTimedOut": false
+  },
+  "sessionId": "ee199409-7f2d-427b-8a89-f88c44d372b6"
+}
