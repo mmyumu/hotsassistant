@@ -17,19 +17,37 @@ process.env.DEBUG = 'actions-on-google:*';
 const { DialogflowApp } = require('actions-on-google');
 const functions = require('firebase-functions');
 
-exports.yourAction = functions.https.onRequest((request, response) => {
+const HERO_PARAM = 'hero';
+
+// API.AI Intent names
+const COUNTER_INTENT = 'hotsassistant.counter';
+
+var fs = require('fs');
+
+exports.hotsassistant = functions.https.onRequest((request, response) => {
   const app = new DialogflowApp({request, response});
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
 
   // Fulfill action business logic
-  function responseHandler (app) {
-    // Complete your fulfillment logic and send a response
-    app.tell('Hello, World!');
+  function counter (app) {
+	fs.readFile('db.json', 'utf8', function(err, contents) {
+		if (err) {
+			return console.log(err);
+		}
+		var root = JSON.parse(contents);
+		
+		var heroName = request.body.result.parameters.hero;
+		
+		console.log(root.heroes[heroName]);
+		app.tell(JSON.stringify(root.heroes[heroName].reason));
+	});
+	
   }
 
   const actionMap = new Map();
-  actionMap.set('input.welcome', responseHandler);
+  // actionMap.set('input.welcome', responseHandler);
+  actionMap.set(COUNTER_INTENT, counter);
 
   app.handleRequest(actionMap);
 });
