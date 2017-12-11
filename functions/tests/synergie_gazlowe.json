@@ -1,0 +1,50 @@
+{
+  "id": "90a288ce-99b3-4bb6-8c07-e83c861a87ac",
+  "timestamp": "2017-12-12T09:39:21.098Z",
+  "lang": "fr",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Qui a une bonne synergie avec Gazleu?",
+    "action": "hotsassistant.heroInfo",
+    "actionIncomplete": false,
+    "parameters": {
+      "action": "synergie",
+      "hero": "Gazlowe"
+    },
+    "contexts": [
+      {
+        "name": "herocontext",
+        "parameters": {
+          "action.original": "synergie",
+          "action": "synergie",
+          "hero.original": "Gazleu",
+          "hero": "Gazlowe"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "6f4529f9-f70f-4542-8150-22c0054b417a",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "heroInfo"
+    },
+    "fulfillment": {
+      "speech": "C'est une bonne question",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "C'est une bonne question"
+        }
+      ]
+    },
+    "score": 0.8500000238418579
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: 400 Bad Request",
+    "webhookTimedOut": false
+  },
+  "sessionId": "ee199409-7f2d-427b-8a89-f88c44d372b6"
+}
