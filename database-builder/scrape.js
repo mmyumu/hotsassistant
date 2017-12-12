@@ -23,6 +23,11 @@ var writeFileQueue = async.queue((task, callback) => {
 		if(err) {
 			return console.log('Error writing file='+err);
 		}
+		fs.writeFileSync('logsWrittenHeroes.txt', heroName + ' succesfully written.', 'utf8', (err) => {
+			if(err) {
+				return console.log('Error writing file='+err);
+			}
+		});
 	});
 
     callback();
@@ -67,7 +72,10 @@ function getHero(heroName) {
 		name : heroName.toLowerCase(),
 		data: {
 			counters : [],
-			synergies: []
+			synergies: [],
+			mapsStronger: [],
+			mapsAverage: [],
+			mapsWeaker: []
 		}
 	}
 	
@@ -90,6 +98,7 @@ function getHero(heroName) {
 				hero.data.synergieReason = reason.replace(/\n/g, ' ');
 			});
 			
+			// Heroes
 			$('div.heroes_tldr_matchups_countered_by').children('div.heroes_tldr_matchups_hero_list').find('img.hero_portrait_bad').each((i, element) => {
 				var params = {};
 				params.type = 'counter';
@@ -99,6 +108,26 @@ function getHero(heroName) {
 			$('div.heroes_tldr_matchups_works_well_with').children('div.heroes_tldr_matchups_hero_list').find('img.hero_portrait_good').each((i, element) => {
 				var params = {};
 				params.type = 'synergie';
+				params.title = $(element).attr('title');
+				prepareHeroQueue.push(params);
+			});
+			
+			// Maps
+			$('div.heroes_tldr_maps_stronger').children('span[data-heroes-tooltip]').find('img').each((i, element) => {
+				var params = {};
+				params.type = 'mapStronger';
+				params.title = $(element).attr('title');
+				prepareHeroQueue.push(params);
+			});
+			$('div.heroes_tldr_maps_average').children('span[data-heroes-tooltip]').find('img').each((i, element) => {
+				var params = {};
+				params.type = 'mapAverage';
+				params.title = $(element).attr('title');
+				prepareHeroQueue.push(params);
+			});
+			$('div.heroes_tldr_maps_weaker').children('span[data-heroes-tooltip]').find('img').each((i, element) => {
+				var params = {};
+				params.type = 'mapWeaker';
 				params.title = $(element).attr('title');
 				prepareHeroQueue.push(params);
 			});
@@ -113,11 +142,26 @@ function getHero(heroName) {
 				name: params.title
 			};
 			hero.data.counters.push(counter);
-		} else {
+		} else if (params.type == 'synergie') {
 			var synergie = {
 				name: params.title
 			};
 			hero.data.synergies.push(synergie);
+		} else if (params.type == 'mapStronger') {
+			var mapStronger = {
+				name: params.title
+			};
+			hero.data.mapsStronger.push(mapStronger);
+		} else if (params.type == 'mapAverage') {
+			var mapAverage = {
+				name: params.title
+			};
+			hero.data.mapsAverage.push(mapAverage);
+		} else if (params.type == 'mapWeaker') {
+			var mapWeaker = {
+				name: params.title
+			};
+			hero.data.mapsWeaker.push(mapWeaker);
 		}
 
 		
