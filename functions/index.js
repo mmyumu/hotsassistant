@@ -32,31 +32,62 @@ const FAIBLE_LEVEL = 'faible';
 
 const DATABASE_FILE = 'db.json';
 
-// Message patterns
-const COUNTER_SPEECH_PATTERN = `{
+const COUNTER_PATTERN = 'counter';
+const SYNERGIE_PATTERN = 'synergie';
+const MAP_PATTERN = 'map';
+const LEVEL_PATTERN = 'level';
+const ERROR_PATTERN = 'error';
+
+var speechPatterns = { "fr": {}, "en":{}};
+speechPatterns['fr'][COUNTER_PATTERN] = `{
    count, plural,
 	=0 {Il n'y a pas de contre de {hero}.}
 	one {Le contre de {hero} est {heroes}}
 	other {Les contres de {hero} sont {heroes}}
 }`;
-const SYNERGIE_SPEECH_PATTERN = `{
+speechPatterns['fr'][SYNERGIE_PATTERN] = `{
 	count, plural,
 	=0 {{hero} n'a de synergie avec aucun autre héro.}
 	other {{hero} a une synergie avec {heroes}}
 }`;
-const MAP_SPEECH_PATTERN = `{
+speechPatterns['fr'][MAP_PATTERN] = `{
 	count, plural,
 	=0 {Il n'y a pas de {level} map pour {hero}.}
 	one{La {level} map de {hero} est {maps}.}
 	other {Les {level}s maps de {hero} sont {maps}}
 }`;
-const LEVEL_PATTERN = ` {
+speechPatterns['fr'][LEVEL_PATTERN] = ` {
 	level, select,
 	fort {bonne}
 	faible {mauvaise}
 	other {level}
 }`;
-const ERROR_PATTERN = `Je ne comprends pas ce que vous voulez dire par {action}`;
+speechPatterns['fr'][ERROR_PATTERN] = `Je ne comprends pas ce que vous voulez dire par {action}`;
+
+speechPatterns['en'][COUNTER_PATTERN] = `{
+   count, plural,
+	=0 {There is no counter for {hero}.}
+	one {The counter for {hero} is {heroes}}
+	other {The counters for {hero} are {heroes}}
+}`;
+speechPatterns['en'][SYNERGIE_PATTERN] = `{
+	count, plural,
+	=0 {{hero} has no synergy.}
+	other {{hero} has synergy with {heroes}}
+}`;
+speechPatterns['en'][MAP_PATTERN] = `{
+	count, plural,
+	=0 {Il There is no {level} map for {hero}.}
+	one{The {level} map for {hero} is {maps}.}
+	other {The {level} maps for {hero} are {maps}}
+}`;
+speechPatterns['en'][LEVEL_PATTERN] = ` {
+	level, select,
+	fort {good}
+	faible {bad}
+	other {level}
+}`;
+speechPatterns['en'][ERROR_PATTERN] = `I do not understand what do you mean by {action}`;
 
 
 var fs = require('fs');
@@ -67,6 +98,8 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 	console.log('Request headers: ' + JSON.stringify(request.headers));
 	console.log('Request body: ' + JSON.stringify(request.body));
 
+	const lang = request.body.lang;
+	
 	// Fulfill action business logic
 	function heroInfo(app) {
 		fs.readFile(DATABASE_FILE, 'utf8', (err, contents) => {
@@ -83,12 +116,12 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			
 			if(action == COUNTER_ACTION) {
 				var heroes = root.heroes[heroKey].counters;
-				var speechPattern = COUNTER_SPEECH_PATTERN;
+				var speechPattern = speechPatterns[lang][COUNTER_PATTERN];
 			} else if(action == SYNERGIE_ACTION) {
 				var heroes = root.heroes[heroKey].synergies;
-				var speechPattern = SYNERGIE_SPEECH_PATTERN;
+				var speechPattern = speechPatterns[lang][SYNERGIE_PATTERN];
 			} else {
-				return app.ask(formatMessage(ERROR_PATTERN, {action:action}));
+				return app.ask(formatMessage(speechPatterns[lang][ERROR_PATTERN], {action:action}));
 			}
 				
 			var heroesAsString = heroes.map(elem => elem.name).join(', ');
@@ -114,7 +147,7 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			} else if(action == SYNERGIE_ACTION) {
 				var reason = root.heroes[heroKey].synergieReason;
 			} else {
-				return app.ask(formatMessage(ERROR_PATTERN, {action:action}));
+				return app.ask(formatMessage(speechPatterns[lang][ERROR_PATTERN], {action:action}));
 			}
 
 			app.ask(reason);
@@ -139,18 +172,17 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			} else if(level == FAIBLE_LEVEL) {
 				var maps = root.heroes[heroKey].mapsWeaker;
 			} else {
-				return app.ask(formatMessage(ERROR_PATTERN, {level:level}));
+				return app.ask(formatMessage(speechPatterns[lang][ERROR_PATTERN], {level:level}));
 			}
 				
 			var mapsAsString = maps.map(elem => elem.name).join(', ');
-			var levelAsString = formatMessage(LEVEL_PATTERN, {level: level});
-			var msg = formatMessage(MAP_SPEECH_PATTERN, { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
+			var levelAsString = formatMessage(speechPatterns[lang][LEVEL_PATTERN], {level: level});
+			var msg = formatMessage(speechPatterns[lang][MAP_PATTERN], { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
 			app.ask(msg);
 		});
 	}
 
 	const actionMap = new Map();
-	// actionMap.set('input.welcome', responseHandler);
 	actionMap.set(HERO_INFO_INTENT, heroInfo);
 	actionMap.set(REASON_INTENT, reason);
 	actionMap.set(MAP_INFO_INTENT, mapInfo);
