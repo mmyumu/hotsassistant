@@ -55,6 +55,13 @@ speechPatterns['en'][LEVEL_PATTERN] = ` {
 }`;
 speechPatterns['en'][ERROR_PATTERN] = `I do not understand what do you mean by {action}`;
 
+speechPatterns['fr-fr'] = speechPatterns['fr'];
+speechPatterns['fr-ca'] = speechPatterns['fr'];
+speechPatterns['en-gb'] = speechPatterns['en'];
+speechPatterns['en-us'] = speechPatterns['en'];
+speechPatterns['en-au'] = speechPatterns['en'];
+speechPatterns['en-ca'] = speechPatterns['en'];
+speechPatterns['en-in'] = speechPatterns['en'];
 
 module.exports = {
 	get: function(lang) {
