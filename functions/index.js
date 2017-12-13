@@ -20,34 +20,115 @@ const functions = require('firebase-functions');
 const HERO_PARAM = 'hero';
 
 // API.AI Intent names
-const COUNTER_INTENT = 'hotsassistant.counter';
+const HERO_INFO_INTENT = 'hotsassistant.heroInfo';
+const REASON_INTENT = 'hotsassistant.reason';
+const MAP_INFO_INTENT = 'hotsassistant.mapInfo';
+
+const COUNTER_ACTION = 'contrer';
+const SYNERGIE_ACTION = 'synergie';
+
+const FORT_LEVEL = 'fort';
+const FAIBLE_LEVEL = 'faible';
+
+const DATABASE_FILE = 'db.json';
 
 var fs = require('fs');
+var formatMessage = require('format-message');
+var speechPatterns = require('./speechPatterns.js');
 
 exports.hotsassistant = functions.https.onRequest((request, response) => {
-  const app = new DialogflowApp({request, response});
-  console.log('Request headers: ' + JSON.stringify(request.headers));
-  console.log('Request body: ' + JSON.stringify(request.body));
+	const app = new DialogflowApp({request, response});
+	console.log('Request headers: ' + JSON.stringify(request.headers));
+	console.log('Request body: ' + JSON.stringify(request.body));
 
-  // Fulfill action business logic
-  function counter (app) {
-	fs.readFile('db.json', 'utf8', function(err, contents) {
-		if (err) {
-			return console.log(err);
-		}
-		var root = JSON.parse(contents);
-		
-		var heroName = request.body.result.parameters.hero;
-		
-		console.log(root.heroes[heroName]);
-		app.tell(JSON.stringify(root.heroes[heroName].reason));
-	});
+	const lang = request.body.lang;
 	
-  }
+	// Fulfill action business logic
+	function heroInfo(app) {
+		fs.readFile(DATABASE_FILE, 'utf8', (err, contents) => {
+			if (err) {
+				return console.log(err);
+			}
+			var root = JSON.parse(contents);
+			
+			var heroName = request.body.result.parameters.hero;
+			var action = request.body.result.parameters.action;
 
-  const actionMap = new Map();
-  // actionMap.set('input.welcome', responseHandler);
-  actionMap.set(COUNTER_INTENT, counter);
+			var heroKey = heroName.toLowerCase();
+			
+			
+			if(action == COUNTER_ACTION) {
+				var heroes = root.heroes[heroKey].counters;
+				var speechPattern = speechPatterns.get(lang).counter;
+			} else if(action == SYNERGIE_ACTION) {
+				var heroes = root.heroes[heroKey].synergies;
+				var speechPattern = speechPatterns.get(lang).synergie;
+			} else {
+				return app.ask(formatMessage(speechPatterns.get(lang).error, {action:action}));
+			}
+				
+			var heroesAsString = heroes.map(elem => elem.name).join(', ');
+			var msg = formatMessage(speechPattern, { hero: heroName, count:heroes.length, heroes: heroesAsString});
+			app.ask(msg);
+		});
+	}
+  
+	function reason(app) {
+		fs.readFile(DATABASE_FILE, 'utf8', (err, contents) => {
+			if (err) {
+				return console.log(err);
+			}
+			var root = JSON.parse(contents);
+			
+			var heroName = request.body.result.parameters.hero;
+			var action = request.body.result.parameters.action;
+			
+			var heroKey = heroName.toLowerCase();	
+			
+			if(action == COUNTER_ACTION) {
+				var reason = root.heroes[heroKey].counterReason;
+			} else if(action == SYNERGIE_ACTION) {
+				var reason = root.heroes[heroKey].synergieReason;
+			} else {
+				return app.ask(formatMessage(speechPatterns.get(lang).error, {action:action}));
+			}
 
-  app.handleRequest(actionMap);
+			app.ask(reason);
+		});
+	}
+  
+	function mapInfo(app) {
+		fs.readFile(DATABASE_FILE, 'utf8', (err, contents) => {
+			if (err) {
+				return console.log(err);
+			}
+			var root = JSON.parse(contents);
+			
+			var heroName = request.body.result.parameters.hero;
+			var level = request.body.result.parameters.level;
+
+			var heroKey = heroName.toLowerCase();
+			
+			
+			if(level == FORT_LEVEL) {
+				var maps = root.heroes[heroKey].mapsStronger;
+			} else if(level == FAIBLE_LEVEL) {
+				var maps = root.heroes[heroKey].mapsWeaker;
+			} else {
+				return app.ask(formatMessage(speechPatterns.get(lang).error, {level:level}));
+			}
+				
+			var mapsAsString = maps.map(elem => elem.name).join(', ');
+			var levelAsString = formatMessage(speechPatterns.get(lang).level, {level: level});
+			var msg = formatMessage(speechPatterns.get(lang).map, { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
+			app.ask(msg);
+		});
+	}
+
+	const actionMap = new Map();
+	actionMap.set(HERO_INFO_INTENT, heroInfo);
+	actionMap.set(REASON_INTENT, reason);
+	actionMap.set(MAP_INFO_INTENT, mapInfo);
+
+	app.handleRequest(actionMap);
 });

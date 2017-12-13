@@ -1,0 +1,38 @@
+{
+  "id": "da0fed71-80b7-4b59-b0f6-2030d34d450d",
+  "timestamp": "2017-12-08T17:34:35.292Z",
+  "lang": "fr",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "contrer stukov",
+    "action": "hotsassistant.counter",
+    "actionIncomplete": false,
+    "parameters": {
+      "hero": "Stukov"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "6f4529f9-f70f-4542-8150-22c0054b417a",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Counter"
+    },
+    "fulfillment": {
+      "speech": "Tu peux contrer Stukov avec toto, tutu et tata",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tu peux contrer Stukov avec toto, tutu et tata"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: 400 Bad Request",
+    "webhookTimedOut": false
+  },
+  "sessionId": "ee199409-7f2d-427b-8a89-f88c44d372b6"
+}

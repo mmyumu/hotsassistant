@@ -1,0 +1,48 @@
+{
+  "id": "9d2034d0-96d3-41b8-ab56-0f864b5d8483",
+  "timestamp": "2017-12-12T09:31:44.43Z",
+  "lang": "fr",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "pourquoi ?",
+    "action": "hotsassistant.reason",
+    "actionIncomplete": false,
+    "parameters": {
+      "hero": "Leoric"
+    },
+    "contexts": [
+      {
+        "name": "herocontext",
+        "parameters": {
+          "action.original": "contrer",
+          "action": "contrer",
+          "hero.original": "",
+          "hero": "Leoric"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "639410e6-6152-47f0-9fe6-869acf5c5f76",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "reason"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "ee199409-7f2d-427b-8a89-f88c44d372b6"
+}
