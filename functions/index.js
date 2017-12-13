@@ -36,12 +36,15 @@ var fs = require('fs');
 var formatMessage = require('format-message');
 var speechPatterns = require('./speechPatterns.js');
 
+
 exports.hotsassistant = functions.https.onRequest((request, response) => {
 	const app = new DialogflowApp({request, response});
 	console.log('Request headers: ' + JSON.stringify(request.headers));
 	console.log('Request body: ' + JSON.stringify(request.body));
 
-	const lang = request.body.lang;
+	const lang = request.body.lang.toLowerCase();
+	
+	const speechPatternsLang = speechPatterns.get(lang);
 	
 	// Fulfill action business logic
 	function heroInfo(app) {
@@ -59,12 +62,12 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			
 			if(action == COUNTER_ACTION) {
 				var heroes = root.heroes[heroKey].counters;
-				var speechPattern = speechPatterns.get(lang).counter;
+				var speechPattern = speechPatternsLang.counter;
 			} else if(action == SYNERGIE_ACTION) {
 				var heroes = root.heroes[heroKey].synergies;
-				var speechPattern = speechPatterns.get(lang).synergie;
+				var speechPattern = speechPatternsLang.synergie;
 			} else {
-				return app.ask(formatMessage(speechPatterns.get(lang).error, {action:action}));
+				return app.ask(formatMessage(speechPatternsLang.error, {action:action}));
 			}
 				
 			var heroesAsString = heroes.map(elem => elem.name).join(', ');
@@ -90,7 +93,7 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			} else if(action == SYNERGIE_ACTION) {
 				var reason = root.heroes[heroKey].synergieReason;
 			} else {
-				return app.ask(formatMessage(speechPatterns.get(lang).error, {action:action}));
+				return app.ask(formatMessage(speechPatternsLang.error, {action:action}));
 			}
 
 			app.ask(reason);
@@ -115,12 +118,12 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			} else if(level == FAIBLE_LEVEL) {
 				var maps = root.heroes[heroKey].mapsWeaker;
 			} else {
-				return app.ask(formatMessage(speechPatterns.get(lang).error, {level:level}));
+				return app.ask(formatMessage(speechPatternsLang.error, {level:level}));
 			}
 				
 			var mapsAsString = maps.map(elem => elem.name).join(', ');
-			var levelAsString = formatMessage(speechPatterns.get(lang).level, {level: level});
-			var msg = formatMessage(speechPatterns.get(lang).map, { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
+			var levelAsString = formatMessage(speechPatternsLang.level, {level: level});
+			var msg = formatMessage(speechPatternsLang.map, { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
 			app.ask(msg);
 		});
 	}
