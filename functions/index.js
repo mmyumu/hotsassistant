@@ -72,6 +72,7 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 				
 			var heroesAsString = heroes.map(elem => elem.name).join(', ');
 			var msg = formatMessage(speechPattern, { hero: heroName, count:heroes.length, heroes: heroesAsString});
+      msg += formatMessage(speechPatternsLang.anythingElse);
 			app.ask(msg);
 		});
 	}
@@ -96,6 +97,7 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 				return app.ask(formatMessage(speechPatternsLang.error, {action:action}));
 			}
 
+      reason += formatMessage(speechPatternsLang.anythingElse);
 			app.ask(reason);
 		});
 	}
@@ -124,6 +126,7 @@ exports.hotsassistant = functions.https.onRequest((request, response) => {
 			var mapsAsString = maps.map(elem => elem.name).join(', ');
 			var levelAsString = formatMessage(speechPatternsLang.level, {level: level});
 			var msg = formatMessage(speechPatternsLang.map, { hero: heroName, level:levelAsString , count:maps.length, maps: mapsAsString});
+      msg += formatMessage(speechPatternsLang.anythingElse);
 			app.ask(msg);
 		});
 	}
