@@ -30,7 +30,7 @@ speechPatterns['fr'][LEVEL_PATTERN] = ` {
 	other {level}
 }`;
 speechPatterns['fr'][ERROR_PATTERN] = `Je ne comprends pas ce que vous voulez dire par {action}. `;
-speechPatterns['fr'][ANYTHING_ELSE_PATTERN] = `Voulez-vous savoir autre chose ? `;
+speechPatterns['fr'][ANYTHING_ELSE_PATTERN] = `Que voulez-vous savoir d'autre ? `;
 
 speechPatterns['en'][COUNTER_PATTERN] = `{
    count, plural,
@@ -56,7 +56,7 @@ speechPatterns['en'][LEVEL_PATTERN] = ` {
 	other {level}
 }`;
 speechPatterns['en'][ERROR_PATTERN] = `I do not understand what do you mean by {action}. `;
-speechPatterns['en'][ANYTHING_ELSE_PATTERN] = `Is there anything else you want to know? `;
+speechPatterns['en'][ANYTHING_ELSE_PATTERN] = `What else do you want to know? `;
 
 speechPatterns['fr-fr'] = speechPatterns['fr'];
 speechPatterns['fr-ca'] = speechPatterns['fr'];
