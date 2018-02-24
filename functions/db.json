@@ -1,0 +1,6110 @@
+{
+  "heroes": {
+    "leoric": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "counterReason": "Leoric struggles against high-mobility Heroes who can simply outmaneuver him and dodge his  Drain Hope. Those Heroes are usually too far away from Leoric or too elusive to remain caught in his  Entomb as well.",
+      "synergieReason": "Leoric pairs off really well with high-burst Assassins like Jaina or Kael'thas who can follow up on  Entomb. Moreover, strong crowd control like Malfurion's  Entangling Roots can keep enemies trapped even if Entomb expires."
+    },
+    "probius": {
+      "counters": [
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Probius is countered by high mobility assassins with large amounts of burst damage and crowd-control. Probius' lack of a gap-closer may regularly be capitalized on by more agile opponents.",
+      "synergieReason": "Probius works best with Heroes that provide a strong frontline he is able to seek refuge behind, as well as supports who can assist in peeling away enemies attempting to dive him. These Heroes also should have some reliable source of hard crowd-control since Probius unfortunately does not have any himself until Level 16 with  Repulsor."
+    },
+    "auriel": {
+      "counters": [
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Tyrande"
+        },
+        {
+          "name": "Kerrigan"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Kharazim"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Cho"
+        },
+        {
+          "name": "Gall"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Auriel is countered by dive compositions that can successfully engage, even with Crystal Aegis in play. The cooldown on  Ray of Heaven prevents it from saving allies from the most aggressive plays, even in cases where  Bestow Hope is able to refill the energy for a second cast immediately.",
+      "synergieReason": "Auriel can bring amazing amounts of healing into a match; however, she can be prevented from healing at all sometimes. For this reason, Auriel does very well with a secondary support on her team. Another powerful strategy for ensuring Auriel will be able to heal reliably is to draft Cho'gall, due to the fact that  Bestow Hope will gather energy from both of them."
+    },
+    "tyrande": {
+      "counters": [
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Stitches"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Li-Ming"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "Tyrande struggles against Heroes like Johanna or Tyrael, whose  Iron Skin or  Sanctification abilities can make them immune to Stuns and other debuffs. Furthermore, burst-heavy melee Assassins like Zeratul can prove to be quite a threat to Tyrande, who lacks any form of innate escape mechanism.",
+      "synergieReason": "Tyrande synergizes very well with Warriors like Diablo, Stitches, or Varian, whose initiation abilities lay a perfect foundation for  Lunar Flare's Stun effect. In order to get the most efficiency out of those so-called \"crowd control chains\", make sure to wait carefully until the respective Warrior engages and then follow up with Lunar Flare. Burst-heavy Mages like Li-Ming can greatly capitalize on Tyrande's  Hunter's Mark Armor Reduction, allowing them to take down much more quickly."
+    },
+    "gall": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Kharazim"
+        },
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Raynor"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Auriel"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Cho'gall's nature makes him particularly vulnerable to most forms of crowd control and percent-based damage sources. Fortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety of less-than-ideal situations.",
+      "synergieReason": "Cho'gall's nature makes him thrive when teamed up with a strong healer, particularly those who possesses a form of crowd control of their own to make up for Cho'gall's own lack of non-Heroic crowd control. Otherwise, most Tanks do well with him, granted they also bring plenty of crowd control of their own."
+    },
+    "hanzo": {
+      "counters": [
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Hanzo has very limited mobility during combat, and must keep his distance from enemies in order to survive. Hanzo will struggle to shake highly mobile Heroes when they get within melee range of him, especially if they can follow him over walls when he uses  Natural Agility to escape.",
+      "synergieReason": "Both of Hanzo's Heroics are excellent follow-ups, and can prove devastating to enemies caught by setup Heroics like Zeratul's  Void Prison, E.T.C.'s  Mosh Pit, or Zarya's  Graviton Surge."
+    },
+    "chen": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Kel'Thuzad"
+        },
+        {
+          "name": "Greymane"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Chen's greatest weakness is any form of crowd control that interrupts his  Fortifying Brew. As such, Stun-heavy Warriors like Muradin or Johanna prove to be quite the challenge. A different kind of threat are Heroes like Varian, who gain access to shield destroying talents, such as  Shattering Throw which greatly reduce Fortifying Brew's protection. ",
+      "synergieReason": "It is hard to find Heroes that truly synergize well with Chen, since his kit focuses so much on himself, rather than enabling others. Still, there are crowd control heavy Heroes like Jaina or Kel'Thuzad who benefit from all the distraction a well played Chen can cause. Furthermore, thanks to Chen's reliable Movement Speed slow effects, Heroes like Greymane can chase down fleeing opponents very easily."
+    },
+    "kael'thas": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Kael'thas is countered by highly mobile assassins who are able to dive him behind the allied frontline. He will need to rely heavily on the assistance of his team to survive once engaged on by means of peel or damage mitigation abilities.",
+      "synergieReason": "Kael'thas requires allies who are going to be able to provide him good peel and sustain when he is targeted in team fights. A solid frontline with ample crowd-control will help keep enemies at bay, while supports who can provide a source of Health or damage mitigation can keep him from being immediately picked off."
+    },
+    "garrosh": {
+      "counters": [
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Tychus"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Stitches"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Garrosh struggles against ranged Heroes who are able to easily kite him and dodge his  Groundbreaker with some form of gap-closer such as Valla's  Vault or Tychus'  Run and Gun. Often times if Groundbreaker is missed against one of these types of Heroes, Garrosh may consider backing off instead of chasing into them while taking massive amounts of Basic Attack damage.",
+      "synergieReason": "Garrosh works well with most Heroes, as they will likely be able to provide him with a much needed source of healing, shields, burst damage, waveclear, or follow-up crowd-control; ideally a mix of several of these things. Some noteable mentions are Stitches and E.T.C. who both will assist Garrosh in locking down targets, while Malfurion and Uther can keep Garrosh nice and healthy while stunning an isolated target tossed into the team by  Wrecking Ball with  Entangling Roots or  Hammer of Justice."
+    },
+    "dehaka": {
+      "counters": [
+        {
+          "name": "Valla"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Zul'jin"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Lúcio"
+        },
+        {
+          "name": "Zarya"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Jaina"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "counterReason": "One of Dehaka's drawbacks is his lack of a gap-closer, which makes him susceptible to kiting from highly mobile ranged damage dealers. Heroes with very high sustained damage can push through his healing to force him to play passively.",
+      "synergieReason": "Dehaka does well with Heroes who can help him get within range of enemies easily. This can be done by speeding Dehaka up, or by crowd-controlling potential targets. When Heroes can accomplish this, they can also follow-up when Drag lands on an enemy Hero. Frontline Heroes with strong crowd-control work well to supplement the threat Dehaka brings into team fights. Because Dehaka has a healthy amount of self-sustain, he also has strong synergy with Heroes who can shield him while his healing takes effect."
+    },
+    "kerrigan": {
+      "counters": [
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Medivh"
+        },
+        {
+          "name": "Auriel"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Medivh"
+        },
+        {
+          "name": "Tyrande"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ]
+    },
+    "lúcio": {
+      "counters": [
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Sgt. Hammer"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "Due to his low health pool, Lucio usually has a hard time if he gets Stunned and burst down quickly. Thus, Heroes like Varian, Valeera, or the sticky Zeratul become a serious threat for him.",
+      "synergieReason": "Lucio enables various types of Heroes. He performs very well with high health Warriors, such as Diablo due to his  Rejuvenescência Talent at Level 16. Lucio's AoE healing over time also synergizes very well with Tassadar's strong single target protection. Moreover, he allows Basic Attackers such as Sgt. Hammer and Valla, to chase targets more efficiently."
+    },
+    "johanna": {
+      "counters": [
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Rehgar"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Johanna is one of the few Heroes in the game that has no natural counters. She cannot be bursted quickly by Assassins, or crowd controlled by Supports or Tanks, due to  Iron Skin. However, this does not mean she is overpowered or always a good pick to have on your team. Johanna is instead countered by playstyle, such as ignoring her in team fights or targeting her while  Iron Skin is on cooldown. Johanna also lacks good mobility and has no gap-closers, meaning that she can be kited very effectively and has difficulty keeping up with dive-heavy allies. The only Hero we would currently consider to be a \"counter\" to Johanna is Varian due to his  Shattering Throw talent at Level 13, which allows him to shatter both Johanna's  Iron Skin and her  Indestructible talent at Level 20.",
+      "synergieReason": "Johanna pairs extremely well with Assassins that possess strong waveclear, such as Gul'dan, Kael'thas, or Jaina, since her  Condemn works very well with the follow up AoE damage from those Heroes. For the same reason, Johanna allows aggressive Supports like Rehgar to shine. "
+    },
+    "zagara": {
+      "counters": [
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Zarya"
+        },
+        {
+          "name": "Brightwing"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Zagara is counterd by high mobility assassins with large amounts of burst damage. Zagara's lack of a reliable gap-closer may regularly be capitalized on by more agile opponents.",
+      "synergieReason": "Due to her lack of mobility, Zagara is best when paired with one or two tanks who can provide her a strong frontline. Those with reliable crowd-control can also set up devastating combos with Zagara's  Devouring Maw."
+    },
+    "li li": {
+      "counters": [
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Chromie"
+        },
+        {
+          "name": "Raynor"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": " Healing Brew is not very effective against Ability based burst damage. Heroes that deal burst damage will force Healing Brew to heal a single ally, while the rest of her team may be suffering. Forcing Li Li to spend her Mana in an inefficient way is a good way to counter her, especially if she is the only healer on her team. Another way to counter her is to be able to consistantly deal damage while outside the range of  Blinding Wind. Li Li is very effective against most Basic Attack Heroes, but Raynor can Basic Attack from a great enough range that she has to frontline in order to Blind him. Her kit is also poorly equiped to Support her team as they defend a  Hyperion push.",
+      "synergieReason": "Li Li does very well with another Support on her team. This allows her to provide secondary healing, while focusing on Talents that increase her damage. The same is true for the other Support, who may also take more damage or utility Talents than they otherwise could."
+    },
+    "the butcher": {
+      "counters": [
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Abathur"
+        },
+        {
+          "name": "Tyrande"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Tyrael"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "The Butcher's \"all-in\" play style tends to suffer against Heroes who are able to completely shut down his damage output through mitigation or hard crowd-control. Blinds, Silences, Stuns, and Invulnerability work well to keep The Butcher at bay.",
+      "synergieReason": "The Butcher performs best with allies who are able to provide him with bonus means of survival after he charges into the enemy team. This is because often times The Butcher will become the primary target of focusfire after engaging with  Ruthless Onslaught. Allies with some form of hard crowd-control who can followup on Ruthless Onslaught are also a welcomed addition."
+    },
+    "greymane": {
+      "counters": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Xul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Abathur"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "As a melee Assassin with a rather telegraphed play style, Greymane is very vulnerable to any form of targeted crowd control. Given that his Basic Attacks are his main source of damage, he is also greatly hindered by any form of debuff that might blind him or reduce his Attack speed.",
+      "synergieReason": "Greymane's excellent damage output scales well with anything that might improve his Attacks. Otherwise, strong initiation and team fight presence goes a long way to opening windows of opportunity for him to pick off Heroes that are out of position."
+    },
+    "sgt. hammer": {
+      "counters": [
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Chromie"
+        },
+        {
+          "name": "Kel'Thuzad"
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Stitches"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Lt. Morales"
+        },
+        {
+          "name": "Tassadar"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Since Sgt. Hammer needs to stand still to get the most out of her Abilities, she is naturally vulnerable to Heroes that use dangerous skillshots, particularly those that can displace her.",
+      "synergieReason": "Protect the Hammer! Sgt. Hammer's binary design makes her depend on Heroes who have ways of keeping opponents away from her to thrive."
+    },
+    "ana": {
+      "counters": [
+        {
+          "name": "Lúcio"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Kel'Thuzad"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Ana usually struggles against mobile enemy Assassins and Warriors, such as Genji or Varian. These Heroes can pose a serious threat to Ana, who has no real escape mechanisms. Furthermore, they are more or less \"immune\" to  Biotic Grenade's healing debuff due to abilities that render them Protected. Heroes like Lucio or Tassadar, on the other hand, provide powerful shields that can also completely ignore the negative side effects of Biotic Grenade. ",
+      "synergieReason": "Ana's  Nano Boost possesses outstanding synergy with Assassins who rely heavily on ability damage such as Kael'thas or Kel'Thuzad. Furthermore,  Biotic Grenade's healing boost effect greatly enhances both her own and her targets' self healing capabilities. As such, Warriors like Arthas or Dehaka can greatly increase their own survivability."
+    },
+    "gazlowe": {
+      "counters": [
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Nova"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Gazlowe's short-range nature makes him ineffective against anything that can outrange him and his Turrets. Lacking a reliable movement speed reduction effect also makes him prone to being kited.",
+      "synergieReason": "Gazlowe is at his best when coupled with Heroes that have the means of setting up for or following up on his  Grav-O-Bomb 3000- Xplodium Charge combo. Otherwise, his Turrets and Xplodium Charge remain useful for hindering opponents from attacking vulnerable backline teammates, making him relatively versatile in this regard."
+    },
+    "alarak": {
+      "counters": [
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "The Butcher"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Azmodan"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "counterReason": "Alarak is countered by Heroes who can close in on him quickly and stun him. This is especially the case when a single Hero is capable of chaining crowd control.",
+      "synergieReason": "Alarak does well with allies who can secure takedowns on enemy Heroes who have been silenced and damaged by  Discord Strike. He also does well with split push Specialists, as he has a strong presence during team fights. "
+    },
+    "illidan": {
+      "counters": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Li Li"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Sonya"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Abathur"
+        },
+        {
+          "name": "Medivh"
+        },
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "counterReason": "Illidan's reliance on the healing and Cooldown reduction provided by  Betrayer's Thirst makes him particularly vulnerable to effects that can reduce his attack speed or otherwise stop him from attacking. Furthermore, his ability to split push can often be matched by other Heroes to even out any advantage generated by this strategy. Although Illidan can be countered by many Heroes, his design makes him very oppressive when poorly counterpicked.",
+      "synergieReason": "Illidan strives when played with any Hero that can increase his survivability, be it through Shielding effects, Armor, or raw instant healing. He is typically known to requires allied Heroes known as \"enablers\" to be at his best, however; such enablers usually provide one of the aforementioned effects on top of other buffs, such as attack speed or movement speed. A tank with an effective way to initiate is also useful; many Heroes, including Arthas, E.T.C., and Muradin may fulfill this role."
+    },
+    "blaze": {
+      "counters": [
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Since Blaze relies on the area of effect damage of  Oil Spill to deal damage, and on the rather slow charge up of  Jet Propulsion to initiate, he tends to struggle against highly mobile Heroes. Furthermore, his large Health pool makes him particularly vulnerable to percentage-based damage.",
+      "synergieReason": "Blaze's well-rounded Ability set allows him to work in most team compositions and with most other Heroes.  Oil Spill's Slowing effect is particularly useful for improving the uptime of Assassins, whereas most Heroes with skillshots will find  Jet Propulsion a great way of setting up for accurate hits."
+    },
+    "zarya": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Sylvanas"
+        },
+        {
+          "name": "Jaina"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Chen"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Zarya is countered by Heroes who are able to outmaneuver and silence her like Illidan, Alarak, or Sylvanas. Furthermore, team compositions that feature Zarya oftentimes struggle when it comes to clearing bigger Minion and Mercenary waves, which is another reason why Sylvanas is hard to deal with. It is extremely important to time  Personal Barrier and  Shield Ally well in order to quickly charge your Energy level when facing those types of Heroes. Besides, try not to wander off too far from the rest of your allies or else you may not be able to escape an enemy gank in time.",
+      "synergieReason": "Zarya should never be your team's Tank, since she lacks the crowd control abilities, the mobility, and, most importantly, the survivability to fulfill that role efficiently. Consequently, she makes for an ideal supportive secondary Warrior, who can initate team fights with her Heroic abilities and protect priority targets with her Shields. As such, she complements strong Tanks like E.T.C., Muradin, or Johanna very well."
+    },
+    "thrall": {
+      "counters": [
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Falstad"
+        },
+        {
+          "name": "Muradin"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Gul'dan"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Thrall is well-rounded combatant, who usually does not get countered very easily. However, there are certain Heroes like Falstad, Johanna, or Muradin, whose great disengage abilities allow them to slow down Thrall's   Earthquake or  Sundering engages.",
+      "synergieReason": "Thrall's  Earthquake synergizes really well with other strong AoE abilities, especially Diablo's  Apocalypse or Gul'dan's  Horrify. Furthermore, Rehgar's  Bloodlust is ideal to hunt down stunned or slowed opponents."
+    },
+    "tychus": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Rexxar"
+        },
+        {
+          "name": "Lúcio"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Sky Temple"
+        }
+      ],
+      "counterReason": "Tychus does exceptionally high sustained damage with high cooldown Abilities. This can be countered by Heroes who can move themselves and their allies out of range of Tychus until his Abilities are on cooldown. Interrupting Tychus from a distance is also a great way to control his damage output. Tychus is also very susceptible to crowd-controls; they can interupt Overkill and eat up Minigun's active duration.",
+      "synergieReason": "Tychus can deal an incredible amount of damage to a stationary target, and benefits greatly from having strong crowd-control on his team. Heroes who can chain crowd-control on their own do very well with Tychus, because they can lock down an enemy while Minigun does its work. Slows, roots and physical barriers are also effective ways to increase Tychus' damage. Due to his small Health pool and lack of self-sustain, Tychus also does well with Heroes who can provide him with shields. Finally, Tychus thrives when his frontline is made up of disruptive Heroes that prevent the enemy team from being able to focus him safely."
+    },
+    "alexstrasza": {
+      "counters": [
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Illidan"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Cho"
+        },
+        {
+          "name": "Gall"
+        },
+        {
+          "name": "Ana"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Muradin"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Alexstrasza struggles against foes with exceptional mobility. These Heroes will have an easy time chasing her down, since she lacks disengage while she is not in her  Dragonqueen form.",
+      "synergieReason": "Alexstrasza has an affinity for high health allies thanks to her  Life-Binder Heroic Ability and  Life Unbound at Level 13. Both of those tools can unfold great value if used on Heroes such as Cho'gall, Muradin, or Diablo who will gain a massive amount of health as long as Alexstrasza herself remains untouched. Paired in a double Support composition, Ana becomes a nice addition to Alexstrasza due to Ana's capabilities of boosting her healing output quite significantly. "
+    },
+    "xul": {
+      "counters": [
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Dehaka"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Nazeebo"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Xul's greatest counter proves to be AoE damage and good counter waveclear. Heroes like Gul'dan or Kael'thas can easily destroy his Skeletons and as such cripple his overall combat performance. Strong solo laners with decent waveclear like Dehaka can also become problematic for Xul to handle.",
+      "synergieReason": "Xul synergizes very well with Heroes like Arthas or Jaina who can trigger his  Executioner talent. Last but not least, Xul's strong early game pressure can buy enough time for late game Heroes like Nazeebo to shine after Level 16 and 20."
+    },
+    "cassia": {
+      "counters": [
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Jaina"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Li Li"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Artanis"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Cassia has no escapes, limited self sustain, and no tools to mitigate spell damage. Powerful backline mages can win trades with her at range, and punish her brutally if she dives in with Fend.",
+      "synergieReason": "Cassia greatly benefits from allied Heroes who can Blind enemies, because she deals increased damage to Blinded targets. If her allies can also Slow enemies, she can get additional value from  Martial Law."
+    },
+    "varian": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Tyrande"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Varian is countered by Heroes like Lunara or Valla, who are able kite him due to their superior mobility or by Heroes like Muradin or Alarak, who can Silence him or slow his Basic Attacks. In order to deal with those types of Heroes, we recommend avoiding head-on battle. Instead, wait for your allies to arrive and take them on together.",
+      "synergieReason": "Because of his lack of mobility, Varian performs best if paired with Warriors like E.T.C. who are capable of locking down targets for him to follow up on. It is worth mentioning that  Colossus Smash, in particular, benefits greatly from having additional burst-heavy Assassins like Li-Ming or Jaina in the same team."
+    },
+    "nazeebo": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Muradin"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "counterReason": "Nazeebo is countered by high mobility Heroes who can easily able to dodge his abilities,  Zombie Wall in particular. Furthermore, since most of Nazeebo's damage derives from his poison abilities, it allows Zarya to use use her shields very efficiently in order to charge her Energy level.",
+      "synergieReason": "In order to make Nazeebo work, we recommend picking a burst-heavy Assassin like Jaina or Li-Ming to guarantee quick takedowns. Furthermore, crowd control is of the essence in order to help Nazeebo plant his  Zombie Wall more easily. Hence, Warriors like E.T.C. or Muradin make for great allies when playing as Nazeebo."
+    },
+    "anub'arak": {
+      "counters": [
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valla"
+        },
+        {
+          "name": "Zul'jin"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Rehgar"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Dragon Shire"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "counterReason": "Although very well rounded, Anub'arak may struggle against Heroes that have ways of avoiding his skillshot based Abilities or otherwise kiting him.",
+      "synergieReason": "Anub'arak's aggressive crowd control-oriented Ability set makes him particularly useful to any Hero who is able to follow up on said crowd control with their own Ability combo."
+    },
+    "malthael": {
+      "counters": [
+        {
+          "name": "Falstad"
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Garden of Terror"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "As a melee Assassin with a rather telegraphed play style, Malthael is very vulnerable to any form of targeted crowd control. Furthermore, since his main gap closer,  Wraith Strike, requires him to either attack or hit a slow skillshot, he is naturally bound to be kited by nimble ranged Heroes.",
+      "synergieReason": "Malthael's outstanding self-sustain makes him a natural ally for most healers, although he will tend to prefer damage mitigation over raw healing. Strong initiation and team fight presence goes a long way to opening windows of opportunity for him to pick off Heroes that are out of position. Area of effect crowd control is also particularly valuable when combined with  Tormented Souls."
+    },
+    "falstad": {
+      "counters": [
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Haunted Mines"
+        }
+      ],
+      "counterReason": "As a frail ranged Assassin, Falstad tends to naturally struggle against other high damage Assassins who have the ability to effectively gap close past his  Barrel Roll's range or otherwise sneak up on him. With little in the way of self-peeling, see to stay near your healer when possible against such Heroes, and make no bold attempts at outplaying your opponents.  Also consider running a  Lightning Rod-centric build, as such builds tend to do better against the majority of Falstad's counters.",
+      "synergieReason": "Falstad is at his best when something stands between him and his enemies. Large, Healthy Tanks are particularly desirable as they draw attention away from Falstad, and often provide their own form of crowd control for potential follow-ups. Otherwise, anything that can protect Falstad is also desirable. Shielding effects are particularly impactful due to his limited Health pool."
+    },
+    "stukov": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Raynor"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Sgt. Hammer"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Haunted Mines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "counterReason": "Stukov is countered by high mobility Heroes who can circumvent his zone control. Lacking any form of Cleanse, Heroes with access to multiple crowd control Abilities are also effective against him.",
+      "synergieReason": "Stukov is strong with Heroes who teamfight near their allies, as opposed to those that will dive out of range of Healing Pathogen. He is also strong with Heroes who have access to some form of Executioner, because he is capable of liberally applying slows."
+    },
+    "lt. morales": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Zul'jin"
+        },
+        {
+          "name": "Valla"
+        },
+        {
+          "name": "Raynor"
+        },
+        {
+          "name": "Sgt. Hammer"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Lt. Morales' greatest counters are Heroes, mostly Warriors and melee Assassins, whose great hard engage causes serious problems for her. Consequently, Heroes with long range crowd control abilities like Alarak or E.T.C. but also stealthy Heroes, such as Zeratul are the ones she has to look out for the most.",
+      "synergieReason": "Lt. Morales is an ideal choice if your team features Basic Attack heavy Assassins and Specialists, such as Zul'jin or Sgt. Hammer, since it is usually quite easy for her to stay in their vicinity. Moreover, her  Stim Drone Heroic Ability can greatly amplify those Heroes' combat performance by greatly increasing their Movement Speed and Attack Speed."
+    },
+    "murky": {
+      "counters": [
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Tychus"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Abathur"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Garden of Terror"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "counterReason": "Murky's predictable attack plan and his dependency on remaining within close range of his targets to effectively deal damage make him vulnerable to most high damage Hero with some way of kiting him or quickly destroying  Pufferfish. Li-Ming is a notorious Murky counter due to the way her  Critical Mass Trait functions. At Hero Level 16, Zarya gains access to her own form of crowd control removal in the form of  Cleansing Shield, which greatly reduces the effectiveness of  Octo-Grab.",
+      "synergieReason": "Murky's small Health pool means that Shielding effects, which are in most cases of a static value, are are an extremely effective way of increasing his survivability. Given that Murky's damage output is tuned around having a very limited amount of Health, he naturally benefits greatly from teaming up with any Hero that can provide him with such effects. Otherwise,  Octo-Grab can serve as a strong setup for any delayed Heroic Ability."
+    },
+    "sylvanas": {
+      "counters": [
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "As a fragile backline Hero, Sylvanas struggles against anything that can either burst her down or match the mobility provided by  Haunting Wave. Stealthed Heroes are particularly threatening to her, as they generally highly limit her ability to safely split push.",
+      "synergieReason": "Sylvanas is a rather general pick, in that she works well with the vast majority of team composition. She does, however, excel when picked along other high-damage mobile ranged damage dealers that can capitalise on  Black Arrows, Heroes that can provide area of effect crowd control, or with other strong split pushers to create an immense amount of Map pressure."
+    },
+    "uther": {
+      "counters": [
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Sylvanas"
+        },
+        {
+          "name": "Zagara"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Zul'jin"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Although not particularly vulnerable to any specific Hero himself, Uther tends to struggle against sustained damage, particularly over an area of effect, as his healing is powerful, but ultimately inefficient. His sub-par waveclear can also be problematic if your team composition does not make up for this weakness somewhere else.",
+      "synergieReason": "Uther's high instantaneous healing and reliable means of providing Armor make him particularly potent with aggressive melee Heroes that can provide their own self-sustain but may otherwise need help against burst damage. Furthermore,  Divine Shield enables some of the game's most dangerous combos by allowing certain Heroes to go \"all out\" without fear of retaliation."
+    },
+    "li-ming": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Samuro"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Xul"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        }
+      ],
+      "counterReason": "Since Li-Ming relies chiefly on skillshots to deal damage, she does particularly poorly against Heroes that either have ways of quickly dodging her Abilities, or can summon undesirable targets to get in the way. Furthermore, her frailty and lack of self-peel makes her vulnerable to Stealthed or otherwise high-damage nimble Heroes that can quickly reach her.",
+      "synergieReason": "Since Li-Ming depends highly on skillshots to deal her damage, she naturally works well with any Hero that can provide reliable crowd control against a kill target for her to follow up. Her frailty also makes her dependent on other Heroes to peel for her; tanks tend to fulfill these two needs, though other Hero types can too."
+    },
+    "zeratul": {
+      "counters": [
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Cho"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Sonya"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Abathur"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "counterReason": "Zeratul tends to struggle against Heroes with targeted crowd control effects, as they prevent him from exploiting  Blink and generally remaining safe due to his limited Health pool. Shielding effects are also problematic for him, as they are generally high-value and instantaneous, which counters the burst damage upon which he is so reliant.",
+      "synergieReason": "Zeratul's risky-but-dangerous nature makes him prefer allies that can increase his survivability. Otherwise, he works well with Heroes that have strong Heroic Abilities that require some form of setup, thanks to  Void Prison."
+    },
+    "d.va": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Valeera"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "D.Va is countered by Heroes who are able to harass her at a distance with poke and reliable crowd-control. Silences and stuns quickly shut down the use of D.Va's  Defense Matrix and can prevent D.Va from having time to summon a new Mech with  Call Mech after it has been destroyed. Assassins with significant burst damage will be able to shut down D.Va immediately after she enters Pilot Mode when she is most vulnerable.",
+      "synergieReason": "Although D.Va is formally categorized as a Warrior, she should be viewed by her allied team as a frontline bruiser. Due to this, she should always be drafted with a more suitable tank who will better fit the role in terms of soaking damage and providing crowd-control. D.Va will also require a reliable support since she will most likely be taking significant amounts of damage while in the frontline of teamfights. Supports who also supply hard crowd-control pair exceptionally well with D.Va as they will be able to further lock-down targets once D.Va has initiated onto them."
+    },
+    "gul'dan": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Brightwing"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Hanamura"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Gul'dan's lack of gap-closer causes him to struggle most against highly mobile assassins, primarily those with a reliable form of crowd-control to interupt his channel of  Drain Life.",
+      "synergieReason": "Like most ranged assassins, Gul'dan performs best with a sturdy frontline to provide him with reliable peel, and a support to keep his Health topped-off as he will need to use it to  Life Tap for Mana."
+    },
+    "artanis": {
+      "counters": [
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "counterReason": "Artanis gets countered by Heroes like Muradin or Brightwing whose Slows, Stuns, and Polymorphs abilities can prevent Artanis from using his Basic Attacks. Varian's Stuns and his Level 16 talent   Shattering Throw, in particular, pose a serious threat to Artanis' shields,  which makes him the ultimate counter.",
+      "synergieReason": "Artanis pairs extremely well with Heroes like Tassadar or Zarya, who can provide him with additional shields. Furthermore, Malfurion's powerful sustained healing will gradually replenish Artanis' health, while his own shields guarantee him protection against burst damage."
+    },
+    "abathur": {
+      "counters": [
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Falstad"
+        },
+        {
+          "name": "Ragnaros"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Murky"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Abathur's Symbiote and Locusts help him to deny the enemy team experience when objectives spawn, when most Heroes will need to vacate lanes in order to rotate. This tactic is directly countered by Heroes who can travel globally, and who waveclear very efficiently. Heroes that match this description usually have high area of effect damage, making them stronger than Abathur in team fights as well.",
+      "synergieReason": "Abathur is strong with Heroes who serve as ideal Symbiote hosts, or who are good targets for Ultimate Evolution."
+    },
+    "sonya": {
+      "counters": [
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Medivh"
+        },
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "Sonya's reliance upon  Whirlwind to survive in team fights makes her particularly vulnerable to targeted crowd control. Furthermore, her melee nature makes her relatively easy to kite, and especially when  Ancient Spear is on Cooldown.",
+      "synergieReason": "For Sonya, survival means damage, and damage means survival. As such, she works well with any Hero that can provide her with Shielding effects, added mobility, or reliable crowd control."
+    },
+    "stitches": {
+      "counters": [
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "D.Va"
+        },
+        {
+          "name": "Murky"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Xul"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Because so much of Stitches' ability to impact a match is baked into Hook, he can be challenged by frontline Heroes who are bad Hook targets. This typically means that these Heroes can easily escape once pulled by Hook, that killing them is of little consequence, or both. These Heroes can stand in front of their team, making it much harder to land Hook on more meaningful backline enemies.",
+      "synergieReason": "Stitches works well with Heroes who can quickly respond to successful Hooks by locking the targets down with unavoidable Stuns, Roots, and Slows. He is also good with Heroes who are simply good at punishing enemies who are out of position."
+    },
+    "samuro": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Zarya"
+        },
+        {
+          "name": "Hanzo"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Azmodan"
+        },
+        {
+          "name": "Sgt. Hammer"
+        },
+        {
+          "name": "Gazlowe"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Samuro will have a hard time against Heroes who can reliably reveal Images, or damage all three possible Samuros at the same time. Some Heroes can actually benefit from your Images; either by using them to complete quests easily, or by farming them for unique resources like Energy.",
+      "synergieReason": "Samuro does not directly pressure the map very much, but can gank and clear Mercenary Camps very well. Because of this playstyle, he works well with a strong lane pusher on his team. This allows him to roam more freely and focus on his strengths, rather than laning."
+    },
+    "arthas": {
+      "counters": [
+        {
+          "name": "Tychus"
+        },
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Kael'thas"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Thrall"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Arthas is excellent when it comes to countering Basic Attackers with the exception of Tychus, whose  Minigun ignores Physical Armor. However, Arthas himself struggles against certain mages who deal a large amount of burst damage like Gul'dan or Kael'thas. Those Heroes are normally hard to reach for Arthas and are also capable of killing several Ghouls of his  Army of the Dead Heroic Ability.",
+      "synergieReason": "Arthas pairs well with Heroes who can either follow up on his crowd control, especially  Howling Blast, or initiate with their own. Consequently, Heroes like Kerrigan or Jaina are ideal matches for Arthas."
+    },
+    "rexxar": {
+      "counters": [
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Tychus"
+        },
+        {
+          "name": "Artanis"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Rexxar does not need to fear many Heroes, as he is an excellent laner and a solid team fighter during most periods of the game. However, there are some opponents he should pay special attention to. Kael'thas and Tychus, in particular, can abuse Misha's reckless positioning quite heavily by either shredding her health with  Minigun or causing her to spread  Living Bomb onto nearby allies. Being one of the strongest duelists in the game, Artanis is one of the few Heroes who can hold his own against Rexxar in a one-on-one lane.",
+      "synergieReason": "Rexxar pairs very well with Heroes who add additional Slows, Stuns, or Roots to Misha's  Misha, Charge! ability. Make sure to time your Stuns well, when playing with Heroes like E.T.C. to maximize their efficiency.  Unleash the Boars's strong Movement Speed slow can pave the way for a powerful  Blizzards and  Ring of Frosts, while Malfurion's low cooldown heals work very well both Misha and Rexxar."
+    },
+    "e.t.c.": {
+      "counters": [
+        {
+          "name": "Brightwing"
+        },
+        {
+          "name": "Falstad"
+        },
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Rehgar"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "counterReason": "Although very well rounded, E.T.C. may struggle against Heroes that have ways of avoiding his  Powerslide, reliably interrupt  Mosh Pit, or otherwise kiting him.",
+      "synergieReason": "E.T.C.'s aggressive crowd control-oriented Ability set makes him particularly useful to any Hero who is able to follow up on said crowd control with their own Ability combo."
+    },
+    "chromie": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Stitches"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Thrall"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "counterReason": "Chromie struggles against two kinds of Heroes: the ones that are too beefy for her to take down quickly and the ones that are too fast for her to reliably land her Basic Abilities. As such, Heroes like Illidan or Tracer can become quite dangerous. To somewhat balance the odds in your favor against that type of Hero, we thoroughly recommend picking  Bronze Talons at Level 4 to dish out a surprising amount of reliable damage.",
+      "synergieReason": "One of Chromie's favorite Supports has to be Malfurion. His  Innervate Trait provides her with precious Mana regeneration and cooldown reduction, while his  Regrowth allows Chromie to stay in battle for a long period of time. Heroes like Thrall or Johanna provide an abundance of crowd control, which can drastically enhance Chromie's overall combat performance."
+    },
+    "rehgar": {
+      "counters": [
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Varian"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Thrall"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Due to the fact that Rehgar cannot cast  Ancestral Healing on himself, he has to carefully avoid getting Stunned. Thus, Heroes like Muradin or Varian can be quite a threat. On the other hand, Heroes like Illidan or Lunara are often too sticky for Rehgar's  Ghost Wolf form to escape (unless he went for  Wolf Run at Level 1). ",
+      "synergieReason": "Rehgar is a strong melee Assassin and Tank Supporter. As such, aggressive Heroes like Illidan, Kerrigan or E.T.C. benefit a lot from  Earthbind Totem and from  Ancestral Healing, in particular. When playing with these Heroes, we usually recommend picking  Earth Shield at Level 13 to further bolster their defences."
+    },
+    "diablo": {
+      "counters": [
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Raynor"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Thrall"
+        },
+        {
+          "name": "Tyrande"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "As a tank with a large amount of Health, Diablo is naturally vulnerable to Heroes that deal percent-based damage. His reliance on being able to engage to be impactful also makes him lackluster against some of the more resilient backline Assassins who have tools to avoid or otherwise nullify his  Shadow Charge +  Overpower combo.",
+      "synergieReason": "Since Diablo provides such a reliable means of initiating, it follows naturally that he would work well with Heroes that have a strong and reliable way of playing off and following up said initiating. Any Hero that Stuns, Roots or otherwise hinders the movement of intended targets is preferred, but Heroic Abilities that synergise with  Apocalypse make for pleasant combos."
+    },
+    "tyrael": {
+      "counters": [
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Tychus"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Tyrael, like any Hero with a high health pool, struggles against the Tank-shredding qualities of Heroes like Tychus. Besides, Varian's Stuns, Taunts, and his  Shattering Throw completely shuts down the shields of Tyrael's  Righteousness ability.",
+      "synergieReason": "In order to unleash Tyrael's full potential, we strongly recommend having another Warrior at his side. As such, E.T.C's strong crowd control and mobility make him an ideal match. The protection and mobility from Tyrael's  Righteousness and  Smite abilities synergize very well with melee Assassins in general, which is why Tyrael pairs very well with Illidan or Kerrigan."
+    },
+    "muradin": {
+      "counters": [
+        {
+          "name": "Tychus"
+        },
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Malthael"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Tyrande"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Rehgar"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Muradin is fairly hard to counter, however, there are a few Heroes that can cause him a hard time. First and foremost, Heroes with percentage based damage, such as Tychus' or Malthael can shred Muradin's health very quickly, especially while in  Avatar. Heroes like Jaina or Alarak, on the other hand, can hinder Muradin's movement and deal huge amounts of burst damage. ",
+      "synergieReason": "Being able to follow up on Muradin's  Storm Bolt with a devastating burst damage combos is what makes Kerrigan, Jaina, and Tyrande ideal partner. In terms of Supports, Rehgar's  Earth Shield at Level 13 scales extremely well with Muradin's high health pool, especially while in  Avatar form."
+    },
+    "tracer": {
+      "counters": [
+        {
+          "name": "Zul'jin"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Gul'dan"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Tracer is threatened by Heroes who have Abilities that can target her directly. Her survival depends on mobility; she dies very quickly when she cannot avoid damage. This makes her vulnerable against Heroes with powerful ranged Basic Attacks, and Heroes who can disable her with single target crowd control that prevent Recall from being cast.",
+      "synergieReason": "Tracer does well with Heroes who have strong waveclear, who can also deal area damage over time. This works well on a map-wide scale, because it forces the enemy team to rotate between lanes to avoid missing experience. It works well in teamfights, because the damage over time opens up opportunities for Tracer to secure takedowns. Tassadar works brilliantly with Tracer, for several reasons. Not only does he somewhat accomplish the synergies discussed above, his shield allows Tracer to lifesteal with her Basic Attacks."
+    },
+    "valla": {
+      "counters": [
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "As a frail ranged Assassin, Valla tends to naturally struggle against other high damage Assassins who have the ability to effectively gap close past her  Vault's range or otherwise sneak up on her. With little in the way of self-peeling, make sure to stay near your healer when possible against such Heroes, and make no bold attempts at outplaying your opponents.",
+      "synergieReason": "Valla is at her best when something stands between her and her enemies. Large, Healthy Tanks are particularly desirable as they draw attention away from Valla, and often provide their own form of crowd control for potential follow-ups. Otherwise, anything that can protect Valla is also desirable. Shielding effects are particularly impactful due to her limited Health pool."
+    },
+    "kharazim": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Johanna"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ]
+    },
+    "the lost vikings": {
+      "counters": [
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Li-Ming"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Lt. Morales"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [],
+      "mapsWeaker": []
+    },
+    "tassadar": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Chen"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Valla"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "counterReason": "Tassadar does not really get countered by a lot of Heroes, however, there are a few that can cause some problems for him. First and foremost, Varian's  Shattering Throw talent allows him to break Tassadar's shields very quickly. Furthermore, Tassadar is susceptible to Silences, which makes Alarak a rather uncomfortable opponent to face.",
+      "synergieReason": "Tassadar is the perfect match for Warriors and Assassins who require special protection in order to unfold their true potential. As such, Heroes like Artanis or Illidan will greatly benefit from the protection  Plasma Shield provides, while the Lifesteal makes them much more resilient. Valla, for the same reasons, synergizes extremely well with Tassadar, especially if combined with another Support."
+    },
+    "raynor": {
+      "counters": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Kharazim"
+        },
+        {
+          "name": "Leoric"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [],
+      "mapsWeaker": []
+    },
+    "brightwing": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Greymane"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Falstad"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Brightwing gets countered by crowd control heavy Warriors, such as Anub'arak or Varian who can capitalize on the fact that she has virtually no escape mechanisms other than  Blink Heal. Furthermore, explosive burst Assassins like Greymane can cause a lot of problems for her, since most of her support derives from small ticks of healing over time.",
+      "synergieReason": "Brightwing works really well with other Supports to form a so-called Double Support Comp. Tassadar, in particular, benefits greatly from Brightwing's sustained healing, while he provides strong burst protection with his shields. Furthermore, she synergizes with other global Heroes, such as Dehaka or Falstad in order to create unexpected team fight situations."
+    },
+    "zul'jin": {
+      "counters": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Medivh"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Zul'jin is heavily countered by enemy Heroes that can dive him, disable him via stuns or silences, and burst him down, especially before he is able to activate  Taz'dingo!. Heroes with reliable Blinds such as Li Li's  Blinding Wind also severely hinder Zul'jin's effectiveness in battle.",
+      "synergieReason": "Zul'jin performs best with Heroes who are able to provide him a strong frontline as well as supports who can help him manage his Health drain. Uther and Tyrael work particularly well with Zul'jin as  Divine Shield and  Sanctification can be overlapped with  Taz'dingo! for a phenomenal results."
+    },
+    "medivh": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Sylvanas"
+        },
+        {
+          "name": "Lunara"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Sonya"
+        },
+        {
+          "name": "Kerrigan"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [],
+      "mapsWeaker": []
+    },
+    "kel'thuzad": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Samuro"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Xul"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Since Kel'Thuzad relies chiefly on skillshots to deal damage, he does particularly poorly against Heroes that have ways of quickly dodging his Abilities. Furthermore, his frailty and lack of self-peel makes him vulnerable to Stealthed or otherwise high-damage nimble Heroes that can quickly reach him.",
+      "synergieReason": "Since Kel'Thuzad depends highly on skillshots to deal damage, he naturally works well with any Hero that can provide reliable crowd control against a kill target for him to follow up. His frailty also makes him dependent on other Heroes to peel for him; tanks tend to fulfill these two needs, though other Hero types can too."
+    },
+    "malfurion": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Kerrigan"
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Blaze"
+        },
+        {
+          "name": "Chromie"
+        },
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Kel'Thuzad"
+        },
+        {
+          "name": "Li-Ming"
+        },
+        {
+          "name": "Nazeebo"
+        },
+        {
+          "name": "Ragnaros"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Although not particularly vulnerable to any specific Hero himself, Malfurion tends to struggle against burst damage. His sub-par waveclear can also be problematic if your team composition does not make up for this weakness somewhere else.",
+      "synergieReason": " Innervate makes Malfurion a natural ally to any Hero that heavily relies on Cooldowns or Mana.  Entangling Roots also makes him excellent at following up on anything that can provide their own source of reliable crowd control."
+    },
+    "cho": {
+      "counters": [
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Greymane"
+        },
+        {
+          "name": "Kharazim"
+        },
+        {
+          "name": "Leoric"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Raynor"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Auriel"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Rehgar"
+        },
+        {
+          "name": "Uther"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Cho'gall's nature makes him particularly vulnerable to most forms of crowd control and percent-based damage sources. Fortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety of less-than-ideal situations.",
+      "synergieReason": "Cho'gall's nature makes him thrive when teamed up with a strong healer, particularly those who possesses a form of crowd control of their own to make up for Cho'gall's own lack of non-Heroic crowd control. Otherwise, most Tanks do well with him, granted they also bring plenty of crowd control of their own."
+    },
+    "ragnaros": {
+      "counters": [
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Lunara"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Tracer"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Muradin"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "As a generalist, Ragnaros is not particularly vulnerable or effective against anyone; still, his lack of crowd control makes him inadequate against some specific Heroes, notably Chen. He is also prone to be kited due to his lack of an effective gap closer.",
+      "synergieReason": "Ragnaros is at his best when coupled with Heroes that feature some form of reliable ranged crowd control so as to help him setup his own Abilities. He is particularly effective with bruisers due to the Movement Speed increase provided by  Blast Wave."
+    },
+    "azmodan": {
+      "counters": [
+        {
+          "name": "Artanis"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Malthael"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Sonya"
+        },
+        {
+          "name": "The Butcher"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        }
+      ],
+      "counterReason": "Given his reliance upon channeling, as both  Globe Of Annihilation and  All Shall Burn are put on a full Cooldown after interruption, Azmodan is naturally countered by Heroes that provide reliable means of or stunning or silencing him. His tendency to split push also leaves him vulnerable to aggressive gankers, especially given his large collision that makes him easy to hit and body block.",
+      "synergieReason": "Azmodan's dependency on stacking up  Taste for Blood (assuming this build path) makes him particularly effective with Heroes that can \"cook up\" Minion waves for him to last-hit. Otherwise, he works well with anyone that provides reliable crowd control, particularly over an area of effect. Since Azmodan's early-game presence tends to be limited, avoid picking him along other lacklustre early-game Specialists such as Abathur or Murky."
+    },
+    "valeera": {
+      "counters": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Brightwing"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Medivh"
+        },
+        {
+          "name": "Thrall"
+        },
+        {
+          "name": "Jaina"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Valeera is countered by Heroes who are able to easily break her from Stealth, as this will prevent her from being able to cast any of her opener abilities. She also is very susceptible to crowd-control as her overextended positioning within the enemy backline will often cause her to be quickly taken down once rendered immobile.",
+      "synergieReason": "Valeera peforms best with Heroes who have a reliable source of crowd-control, high burst damage, or both! Alongside these Heroes Valeera will be able to easily take down most high-priority targets before they are able to react. Also, Heroes who provide Valeera with a means of survivability and damage mitigation are also much appreciated as she has absolutely no self-sustain on her own."
+    },
+    "jaina": {
+      "counters": [
+        {
+          "name": "Alarak"
+        },
+        {
+          "name": "Anub'arak"
+        },
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Nova"
+        },
+        {
+          "name": "Tracer"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Zeratul"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "The Butcher"
+        },
+        {
+          "name": "Valeera"
+        },
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Xul"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Since Jaina relies chiefly on skillshots and delayed Abilities to deal damage, she does particularly poorly against Heroes that have ways of quickly dodging her Abilities. Furthermore, her frailty and lack of self-peel makes her vulnerable to Stealthed or otherwise high-damage nimble Heroes that can quickly reach her.",
+      "synergieReason": "Since Jaina depends highly on skillshots to deal her damage, she naturally works well with any Hero that can provide reliable crowd control against a kill target for her to follow up. Her frailty also makes her dependent on other Heroes to peel for her; tanks tend to fulfill these two needs, although other Hero types can as well."
+    },
+    "maiev": {
+      "counters": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Lúcio"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Dehaka"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Gul'dan"
+        },
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Kael'thas"
+        },
+        {
+          "name": "Lúcio"
+        },
+        {
+          "name": "Stukov"
+        },
+        {
+          "name": "Tyrael"
+        }
+      ],
+      "mapsStronger": [],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Maiev's relatively predictable game plan tends to be easily disrupted by crowd control and displacement effects. Certain Heroes also have little fear of being tethered, voiding a large portion of Maiev's utility.",
+      "synergieReason": "Maiev's unique ability to reliably pull a number of Heroes to her works particularly well with tanks who seek to initiate or set up crowd control chains. Assassins with large amounts of avoidable area of effect damage will also find  Umbral Bind particularly useful."
+    },
+    "lunara": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Genji"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Stukov"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Arthas"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Jaina"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Battlefield of Eternity"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "counterReason": "Lunara gets countered by two things: mobile Assassins like Illidan or Genji that can chase her down even after she used  Leaping Strike and strong AoE healing provided by Supports like Malfurion or Stukov who can shut down  Nature's Toxin's poison damage.   ",
+      "synergieReason": "Lunara works with a variety of different Heroes and team compositions, however, she truly shines if paired with crowd control heavy Heroes such as Arthas, Jaina, or Muradin who all provide plenty of Movement Speed Slows for Lunara's  Unfair Advantage talent at Level 13 to get value from."
+    },
+    "nova": {
+      "counters": [
+        {
+          "name": "Chen"
+        },
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Johanna"
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Tassadar"
+        },
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Zarya"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Tyrael"
+        },
+        {
+          "name": "Tyrande"
+        },
+        {
+          "name": "Xul"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "counterReason": "As a ranged Assassin with little in the way of escaping, Nova players must rely on burst damage and long-ranged attacks to perform well. As such, she tends to struggle with anything that has a reliable means of mitigating damage for oneself or for allies or closing the gap to get up close and personal with her.",
+      "synergieReason": "Nova works best with Heroes that provide one or many form of initiation or crowd control. Her high burst damage output also benefits from buffs and debuffs. Since her team fight presence is considered to be low, avoid drafting her along Heroes such as Abathur, Murky, or The Lost Vikings."
+    },
+    "genji": {
+      "counters": [
+        {
+          "name": "Varian"
+        },
+        {
+          "name": "Malfurion"
+        },
+        {
+          "name": "Lunara"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Jaina"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "E.T.C."
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Infernal Shrines"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Volskaya Foundry"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsWeaker": [
+        {
+          "name": "Tomb of the Spider Queen"
+        }
+      ],
+      "counterReason": "Due to his very low health pool, Genji struggles against Heroes with strong crowd control that render him defenseless for a short period of time. Thus, abilities like Varian's  Taunt or Malfurion's  Twilight Dream can cause great problems for him. Furthermore, nimble ranged Assassins with great kiting potential such as Lunara can bait him into overextending only to get outnumbered by the enemy team.  Keep in mind that any form of poison damage continues to tick after Genji's  Deflect expires, which is another reason why Lunara is a dangerous enemy for him to face.",
+      "synergieReason": "Genji synergizes extremely well with bursty crowd control-heavy Assassins, such as Jaina or Kael'tas, who can help him take down individual targets very quickly in order to proc his cooldown reset on  Swift Strike. He also pairs very well with burst Healers like Uther, whose Armor buffs and  Divine Shield can greatly enhance Genji's own survivability."
+    },
+    "junkrat": {
+      "counters": [
+        {
+          "name": "Illidan"
+        },
+        {
+          "name": "Sonya"
+        },
+        {
+          "name": "Zeratul"
+        },
+        {
+          "name": "Tyrael"
+        }
+      ],
+      "synergies": [
+        {
+          "name": "E.T.C."
+        },
+        {
+          "name": "Muradin"
+        },
+        {
+          "name": "Uther"
+        },
+        {
+          "name": "Malfurion"
+        }
+      ],
+      "mapsStronger": [
+        {
+          "name": "Braxis Holdout"
+        },
+        {
+          "name": "Infernal Shrines"
+        },
+        {
+          "name": "Tomb of the Spider Queen"
+        },
+        {
+          "name": "Towers of Doom"
+        },
+        {
+          "name": "Warhead Junction"
+        }
+      ],
+      "mapsAverage": [
+        {
+          "name": "Battlefield of Eternity"
+        },
+        {
+          "name": "Blackheart's Bay"
+        },
+        {
+          "name": "Cursed Hollow"
+        },
+        {
+          "name": "Dragon Shire"
+        },
+        {
+          "name": "Garden of Terror"
+        },
+        {
+          "name": "Hanamura"
+        },
+        {
+          "name": "Haunted Mines"
+        },
+        {
+          "name": "Sky Temple"
+        },
+        {
+          "name": "Volskaya Foundry"
+        }
+      ],
+      "mapsWeaker": [],
+      "counterReason": "Junkrat is countered by highly mobile Heroes who can easily dive him in the backline. Beyond  Concussion Mine Junkrat has no immediate source of peel, therefore he is particularly susceptible to Heroes that can stick to him with some form of gap-closer. The fact that all of Junkrat's abilities are skillshots also makes it particularly difficult to combat highly mobile enemy Heroes.",
+      "synergieReason": "Junkrat's low Health pool and squishiness require him to hide behind a strong frontline that can distract enemy Heroes during fights. Tanks and bruisers with reliable crowd-control can either help Junkrat set-up takedowns, or assist him with peel should he be focused by the enemy team. A support that can provide Junkrat with healing or damage mitigation in the form of a shield or buffs is mandatory as he has no source of self-sustain within his entire kit."
+    }
+  }
+}
